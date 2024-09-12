@@ -5,9 +5,16 @@ Classic Asteroids Game is made to implement more realistic physics using simple 
 
 CONTROLS:
 W - Apply force to the ship -> force affects acceleration meaning there is no cap on the ship's velocity
+
 A - Rotate Left
+
 D - Rotate Right
+
 S - Proton Wave -> When the blue bar at the bottom left is full, a circular wave is created at the player ship and extends outwards destroying everything within its radius
-SHIFT - Portal -> Create a 2-ended portal that teleports the player from one gate to the other (with a time cooldown in between) and gives the player a small health boost. Only works when the white bar in the bottom left is full. Only one portal is active at once and using this again destroys the first portal and creates a new one
+
+SHIFT - Portal -> Create a 2-ended portal that teleports the player from one gate to the other (with a time cooldown in between) and gives the player a small health boost. Only works when the white bar in the bottom left is full. Only one portal is active at once and 
+using this again destroys the first portal and creates a new one
+
 LCTRL - Time Freeze -> When holding this button, time is processed at half speed. Everything is slowed down proportionally but it allows the player to see the surroundings for a short period and plan a move
+
 SPACE - Fire -> Fire bullets from the player ship. The bullets carry the ship's original velocity creating a momentum effect, this means if the ship is traveling at a high speed and fires in the opposite direction, the bullets will travel very slowly because their momentum is carrying them backwards. 
