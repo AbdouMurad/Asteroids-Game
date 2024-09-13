@@ -11,6 +11,8 @@ A - Rotate Left
 D - Rotate Right
 
 S - Proton Wave -> When the blue bar at the bottom left is full, a circular wave is created at the player ship and extends outwards destroying everything within its radius
+![image](https://github.com/user-attachments/assets/a24014c2-a752-4ac0-8bc6-ed83a38903c0)
+
 
 SHIFT - Portal -> Create a 2-ended portal that teleports the player from one gate to the other (with a time cooldown in between) and gives the player a small health boost. Only works when the white bar in the bottom left is full. Only one portal is active at once and 
 using this again destroys the first portal and creates a new one
