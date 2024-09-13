@@ -1,7 +1,12 @@
 Classic Asteroids Game is made to implement more realistic physics using simple equations to apply forces on objects. 
-- The gravitational constant is exaggerated to provide better gameplay and can be adjusted from the CONST script.
-- Every level one more asteroid spawns, and at levels 3-5 an enemy spawns, at level 6-8 2 enemies spawn and so on.
-- Enemies are controlled using an adaptive targeting behavior, where depending on the percent of shots hit, the error margin of the enemies aim will increase/decrease to maintain a level of difficulty.
+
+Newton's second law is implemented by moving objects only through applied forces. Asteroids and players also have a gravitational force pulling them together depending on their masses.
+
+By destroying small asteroids, the player has a chance of receiving a power-up. The corresponding icon of the power-up will turn on in the bottom corner. These powerups include a smaller wait time for proton wave, double 
+fire rate, and double the score received for destroying asteroids and enemies. The only power-up that does not have an icon is the health power-up, which will refill the player's health.
+The remaining indicators are bars that indicate the time until the next use of the player's abilities. The top one indicates how much freeze time the player has available (how long can the player slow time for), the one 
+under indicates the time until the player can place a dimensional passage, the one under shows the time until the next proton wave, and finally, the final bar shows the players current health
+![image](https://github.com/user-attachments/assets/a203fdd5-190c-4de2-86f8-3fb0d862b7aa)
 
 CONTROLS:
 W - Apply force to the ship -> force affects acceleration meaning there is no cap on the ship's velocity
@@ -14,10 +19,14 @@ S - Proton Wave -> When the blue bar at the bottom left is full, a circular wave
 ![image](https://github.com/user-attachments/assets/a24014c2-a752-4ac0-8bc6-ed83a38903c0)
 
 
-SHIFT - Portal -> Create a 2-ended portal that teleports the player from one gate to the other (with a time cooldown in between) and gives the player a small health boost. Only works when the white bar in the bottom left is full. Only one portal is active at once and 
+SHIFT - Dimensional Passage -> Create a 2-ended portal that teleports the player from one gate to the other (with a time cooldown in between) and gives the player a small health boost. Only works when the white bar in the bottom left is full. Only one portal is active at once and 
 using this again destroys the first portal and creates a new one
+![image](https://github.com/user-attachments/assets/fddc8fa3-0313-43f3-95a3-0a9801217380)
 
 LCTRL - Time Freeze -> When holding this button, time is processed at half speed. Everything is slowed down proportionally but it allows the player to see the surroundings for a short period and plan a move
 ![image](https://github.com/user-attachments/assets/343aef50-5527-4fce-9eb9-d658525a66cc)
 
 SPACE - Fire -> Fire bullets from the player ship. The bullets carry the ship's original velocity creating a momentum effect, this means if the ship is traveling at a high speed and fires in the opposite direction, the bullets will travel very slowly because their momentum is carrying them backwards. 
+
+
+Gameplay available on LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7240063514294243328/
