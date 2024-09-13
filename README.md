@@ -9,6 +9,7 @@ under indicates the time until the player can place a dimensional passage, the o
 ![image](https://github.com/user-attachments/assets/a203fdd5-190c-4de2-86f8-3fb0d862b7aa)
 
 CONTROLS:
+
 W - Apply force to the ship -> force affects acceleration meaning there is no cap on the ship's velocity
 
 A - Rotate Left
