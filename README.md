@@ -24,10 +24,10 @@ SHIFT - Dimensional Passage -> Create a 2-ended portal that teleports the player
 using this again destroys the first portal and creates a new one
 ![image](https://github.com/user-attachments/assets/fddc8fa3-0313-43f3-95a3-0a9801217380)
 
-LCTRL - Time Freeze -> When holding this button, time is processed at half speed. Everything is slowed down proportionally but it allows the player to see the surroundings for a short period and plan a move
+LCTRL - Time Freeze -> When holding this button, time is processed at 1/3 of the normal speed. Everything is slowed down proportionally but it allows the player to see the surroundings for a short period and plan a move
 ![image](https://github.com/user-attachments/assets/343aef50-5527-4fce-9eb9-d658525a66cc)
 
-SPACE - Fire -> Fire bullets from the player ship. The bullets carry the ship's original velocity creating a momentum effect, this means if the ship is traveling at a high speed and fires in the opposite direction, the bullets will travel very slowly because their momentum is carrying them backwards. 
+SPACE - Fire -> Fire bullets from the player ship. The bullets carry the ship's original velocity creating a momentum effect, this means if the ship is traveling at a high speed and fires in the opposite direction, the bullets will travel very slowly because their momentum is carrying them backward. 
 
 The enemies were designed using an adaptive targeting system. By determining the distance between the enemy and the player and using the velocities of both ships, the enemy can predict the location in which the player is headed to. Using this the enemy hoams in on that position which is being constantly updated and fires in that direction. Initially, this simple procedure proved to be too successful and the enemies were too strong. To adjust to this, an error margin was introduced which significantly lowered the accuracy of the enemy. Then based on how many shots the enemy was hitting, the error margin would either decrease or increase which meant the enemy would eventually hit an accuracy percent in which it was neither missing too many shots nor hitting too many shots. Based on experience from play testing the game, with the new model the enemy hits around 20$ of the shots they fire which is still a high accuracy rate but not too high that the game becomes unplayable. 
 
