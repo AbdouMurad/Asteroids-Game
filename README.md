@@ -18,5 +18,6 @@ SHIFT - Portal -> Create a 2-ended portal that teleports the player from one gat
 using this again destroys the first portal and creates a new one
 
 LCTRL - Time Freeze -> When holding this button, time is processed at half speed. Everything is slowed down proportionally but it allows the player to see the surroundings for a short period and plan a move
+![image](https://github.com/user-attachments/assets/343aef50-5527-4fce-9eb9-d658525a66cc)
 
 SPACE - Fire -> Fire bullets from the player ship. The bullets carry the ship's original velocity creating a momentum effect, this means if the ship is traveling at a high speed and fires in the opposite direction, the bullets will travel very slowly because their momentum is carrying them backwards. 
